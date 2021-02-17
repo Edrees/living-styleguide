@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, after installing all modules and dependencies `npm install` or `yarn`, you can run:
 
-### `npm start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -37,13 +37,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### `npm run dev`
+### `npm run dev` or `yarn dev`
 
 This will run the application on port 3000 together with the react-styleguidist application on port 6060 in parallel.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser and click on the React Styleguidist link on the page to open it or to go directly and view it in the browsers, open [http://localhost:6060](http://localhost:6060)
 
-### `npm run storybook`
+## Storybook
+Storybook is also included in this project under ".storybook/" folder
+
+First run `npm install` or `yarn`
+
+### `npm run storybook` or `yarn storybook` 
 
 This will run the storybook development tool.
 
