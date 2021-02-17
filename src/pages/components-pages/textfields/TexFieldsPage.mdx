@@ -1,0 +1,21 @@
+export const defaulTextField = `<TextField
+  id="outlined-name"
+  label="Placeholder"
+  className={classes.textField}
+  value={values.name}
+  onChange={handleChange('name')}
+  margin="normal"
+  variant="outlined"
+/>`;
+
+export const requiredTextField = `<TextField
+  id="outlined-name"
+  label="Placeholder"
+  className={classes.textField}
+  value={values.name}
+  onChange={handleChange('name')}
+  margin="normal"
+  variant="outlined"
+  error={errorOccured}
+  required
+/>`;

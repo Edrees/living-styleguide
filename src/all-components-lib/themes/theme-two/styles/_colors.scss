@@ -1,0 +1,66 @@
+$white: #FFFFFF;
+$black: #000000;
+
+// primary (colors)
+$dark-blue: #1A2531;
+$orange-1: #FD9551;
+$orange-2: #FEB970;
+$blue-1: #52BEE5;
+$blue-2: #69CFF3;
+
+// alert colors
+$blue: #69D0F5;
+$green: #0AC400;
+$red: #FF0000;
+$yellow: #EBC063;
+
+// bluegrays swatches
+$bluegray-1: #A7B7C2;
+$bluegray-2: #DBE3E8;
+$bluegray-3: #EDF0F2;
+
+// gray shades
+$dark-gray-1: #333;
+$dark-gray-2: #555;
+$dark-gray-3: #777;
+$gray-1: #AAA;
+$gray-2: #BBB;
+$gray-3: #CCC;
+
+// element specific variables
+$default-font-color: $dark-blue;
+$secondary-font-color: $gray-1;
+$border-color: $gray-3;
+$default-btn-color: $gray-2;
+$primary-btn-color: $orange-1;
+$secondary-btn-color: $dark-blue;
+
+// alert specific variables
+$error: $red;
+$info: $blue;
+$success: $green;
+$warning: $yellow;
+
+//exporting vars to jsx
+:export {
+    mainPrimaryColor: $orange-1;
+    mainSecondaryColor: $dark-blue;
+    defaultFontColor: $default-font-color;
+    secondaryFontColor: $secondary-font-color;
+    borderColor: $border-color;
+    defaultButton: $default-btn-color;
+    primaryButton: $primary-btn-color;
+    secondaryButton: $primary-btn-color;
+    errorColor: $error;
+    infoColor: $info;
+    successColor: $success;
+    warningColor: $warning;
+    darkGray1: $dark-gray-1;
+    darkGray2: $dark-gray-2;
+    darkGray3: $dark-gray-3;
+    gray1: $gray-1;
+    gray2: $gray-2;
+    gray3: $gray-3;
+    white: $white;
+    black: $black;
+}

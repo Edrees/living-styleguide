@@ -1,0 +1,96 @@
+$white: #FFFFFF;
+$black: #000000;
+
+//temp
+$mui-blue: #2196f3;
+
+// primary (colors)
+$dark-blue: #1A2531;
+
+// orange swatches
+$orange-1: #FD9551;
+$orange-2: #FEB970;
+
+// blue swatches
+$blue-1: #52BEE5;
+$blue-2: #69CFF3;
+$blue-3: #E6F7FD;
+
+// bluegrays swatches
+$blue-gray-1: #A7B7C2;
+$blue-gray-2: #DBE3E8;
+$blue-gray-3: #EDF0F2;
+
+// dark gray shades
+$dark-gray-1: #323232;
+$dark-gray-2: #515151;
+$dark-gray-3: #767676;
+
+// gray shades
+$gray-1: #AAA;
+$gray-2: #BBB;
+$gray-3: #CCC;
+
+// light gray shades
+$light-gray-1: #CDCDCD;
+$light-gray-2: #DEDEDE;
+$light-gray-3: #EFEFEF;
+
+// alert colors
+$blue: #57C2E8;
+$green: #57E8A5;
+$red: #E86157;
+$yellow: #FD9551;
+
+// element specific variables
+$default-font-color: $dark-blue;
+$secondary-font-color: $gray-1;
+$border-color: $gray-3;
+$default-btn-color: $gray-2;
+$primary-btn-gradient-1: $blue-1;
+$primary-btn-gradient-2: $blue-2;
+$secondary-btn-gradient-1: $orange-1;
+$secondary-btn-gradient-2: $orange-2;
+
+// alert specific variables
+$error: $red;
+$info: $blue;
+$success: $green;
+$warning: $yellow;
+
+//exporting vars to jsx
+:export {
+    mainPrimaryColor: $mui-blue;
+    mainSecondaryColor: $orange-1;
+    defaultFontColor: $default-font-color;
+    secondaryFontColor: $secondary-font-color;
+    borderColor: $border-color;
+    defaultButton: $default-btn-color;
+    primaryButtonGradient1: $primary-btn-gradient-1;
+    primaryButtonGradient2: $primary-btn-gradient-2;
+    secondaryButtonGradient1: $secondary-btn-gradient-1;
+    secondaryButtonGradient2: $secondary-btn-gradient-2;
+    errorColor: $error;
+    infoColor: $info;
+    successColor: $success;
+    warningColor: $warning;
+    orange1: $orange-1;
+    orange2: $orange-2;
+    blue1: $blue-1;
+    blue2: $blue-2;
+    blue3: $blue-3;
+    blueGray1: $blue-gray-1;
+    blueGray2: $blue-gray-2;
+    blueGray3: $blue-gray-3;
+    darkGray1: $dark-gray-1;
+    darkGray2: $dark-gray-2;
+    darkGray3: $dark-gray-3;
+    gray1: $gray-1;
+    gray2: $gray-2;
+    gray3: $gray-3;
+    lightGray1: $light-gray-1;
+    lightGray2: $light-gray-2;
+    lightGray3: $light-gray-3;
+    white: $white;
+    black: $black;
+}
